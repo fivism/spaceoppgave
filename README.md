@@ -1,6 +1,7 @@
 # spaceoppgave
 
 *requires `geopandas` and `shapely`*
+
 `building_api.py`:
 Running this file itself with no args provides a very small functionality demo. Must have the two demo data sources in directory (`heights.json` and `limits.json`)
  
