@@ -7,7 +7,7 @@ Running this file itself with no args provides a very small functionality demo. 
  
 This model:
 - assumes there is only one building-limits polygon
-- N height plataeus, valid only if they are contiguous and cover 100% of building limits 
+- assumes N height plataeus, valid only if they are contiguous and cover 100% of building limits 
 - validates integrity by checksumming resultant hybridized polygon features' areas against original building limit polygon area
 - uses this validation as a means to save a running history of last-known-good-featuresets and therefore a conflict resolution system when either feature is being changed 
 - outputs these features as formatted JSON via `write_out(filename)`
